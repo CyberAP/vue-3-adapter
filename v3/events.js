@@ -9,3 +9,12 @@ export function extractListeners(context) {
     });
   return listeners;
 }
+
+export function withoutListeners(attrs) {
+  const result = {};
+  Object.keys(attrs).forEach(key => {
+    if (key.startsWith('on')) return;
+    result[key] = attrs[key];
+  });
+  return result;
+}
