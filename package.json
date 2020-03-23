@@ -1,0 +1,20 @@
+{
+  "name": "vue-3-adapter",
+  "version": "1.0.0-alpha.1",
+  "description": "Vue 3 adapter for Vue 2 codebase",
+  "main": "index.js",
+  "homepage": "https://github.com/CyberAP/vue-3-adapter",
+  "repository": "github:CyberAP/vue-3-adapter",
+  "author": "Stanislav Lashmanov <stasvarenkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/shared": "^3.0.0-alpha.9"
+  },
+  "peerDependencies": {
+    "vue": ">=2.6.0"
+  },
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "type": "module"
+}
